@@ -1,15 +1,19 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
-
+  html {
+    font-size: 62.5%
+  }
   body {
-    background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+    /* background: ${(p) => p.theme.colors.background.overlay}; */
+    background: url("http://api.thumbr.it/whitenoise-361x370.png?background=333333ff&noise=626262&density=10&opacity=36") ${(
+      p
+    ) => p.theme.colors.background.overlay};
   }
-`
+`;
