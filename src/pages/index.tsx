@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       value={{ isHoverProfileImg, setIsHoverProfileImg }}
     >
       <Head>
-        <title>Homepage</title>
+        <title>Hebit</title>
       </Head>
       <Container>
         <ContentContainer>
@@ -60,10 +60,10 @@ const Home: React.FC = () => {
           </MainPaneContainer>
           <Divider />
           <Pane paddingX={unit(12)}>
-            <Title marginTop={unit(12)}>Projects</Title>
+            <Title marginTop={unit(12)}>Projetos</Title>
             <Pane minHeight={unit(28)}>
               <Paragraph marginY={unit(4)}>
-                Click on any card above to see details about the project.
+                Alguns dos meus projetos. Clique em algum card e veja o preview.
               </Paragraph>
             </Pane>
           </Pane>
@@ -118,7 +118,7 @@ const Home: React.FC = () => {
 
           {/* <Divider /> */}
           <Pane paddingX={unit(12)}>
-            <Title marginTop={unit(12)}>Activities</Title>
+            <Title marginTop={unit(12)}>Atividades</Title>
             <Pane marginY={unit(12)}>
               <UnorderedList display="flex">
                 <Pane width="50%" paddingRight={unit(4)}>
