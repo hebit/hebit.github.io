@@ -102,3 +102,15 @@ export const MainPaneContainer = styled(Pane).attrs({
     }
   }
 `;
+
+export const ActivitiesContainer = styled(Pane)`
+  ul {
+    display: flex;
+    @media screen and (max-width: 670px) {
+      flex-direction: column;
+      div {
+        width: 100% !important;
+      }
+    }
+  }
+`;

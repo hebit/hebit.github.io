@@ -5,6 +5,7 @@ import {
   Container,
   ContentContainer,
   MainPaneContainer,
+  ActivitiesContainer,
 } from "../styles/pages/Home";
 import Divider from "@src/components/Divider";
 import { Pane, Image, ListItem, UnorderedList, Button } from "evergreen-ui";
@@ -89,6 +90,13 @@ const Home: React.FC = () => {
                 uri="https://hebit.gitlab.io/the-text-club/"
               />
               <ProjectCard
+                name="BMO Form"
+                desciption=""
+                color="light"
+                previewImg="https://gitlab.com/hebit/spacinfo/uploads/1bc46c29648be240befdcecb411c4103/Screenshot_2021-01-09_PlugInfo.png"
+                uri="http://pluginfo.infojr.com.br/"
+              />
+              <ProjectCard
                 name="Spatial Card Style"
                 desciption=""
                 color="dark"
@@ -102,13 +110,7 @@ const Home: React.FC = () => {
                 previewImg="https://user-images.githubusercontent.com/47919195/104086289-5bb0f480-5235-11eb-911e-63352f3b1e39.png"
                 uri="https://hebit.github.io/teste-for-gabinete-do-texto/"
               />
-              <ProjectCard
-                name="BMO Form"
-                desciption=""
-                color="light"
-                previewImg="https://gitlab.com/hebit/spacinfo/uploads/1bc46c29648be240befdcecb411c4103/Screenshot_2021-01-09_PlugInfo.png"
-                uri="http://pluginfo.infojr.com.br/"
-              />
+
               <span></span>
               <ProjectCard empty={true} />
               <ProjectCard empty={true} />
@@ -119,7 +121,7 @@ const Home: React.FC = () => {
           {/* <Divider /> */}
           <Pane paddingX={unit(12)}>
             <Title marginTop={unit(12)}>Atividades</Title>
-            <Pane marginY={unit(12)}>
+            <ActivitiesContainer marginY={unit(12)}>
               <UnorderedList display="flex">
                 <Pane width="50%" paddingRight={unit(4)}>
                   <ListItem marginY={unit(8)}>
@@ -187,7 +189,7 @@ const Home: React.FC = () => {
                   </ListItem>
                 </Pane>
               </UnorderedList>
-            </Pane>
+            </ActivitiesContainer>
           </Pane>
         </ContentContainer>
       </Container>
