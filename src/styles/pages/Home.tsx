@@ -109,6 +109,7 @@ export const ActivitiesContainer = styled(Pane)`
     @media screen and (max-width: 670px) {
       flex-direction: column;
       div {
+        width: 100%;
         padding: 0;
       }
     }
