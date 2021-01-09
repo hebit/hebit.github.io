@@ -93,7 +93,7 @@ const Home: React.FC = () => {
                 desciption=""
                 color="dark"
                 previewImg="https://gitlab.com/hebit/spacinfo/uploads/b5e506d38a7d06ff68b19e2775fc1a9a/Screenshot_2021-01-09_React_App.png"
-                uri="https://quizzical-heisenberg-a47472.netlify.app"
+                uri="https://spatial-card.netlify.app/"
               />
               <ProjectCard
                 name="Loading CSS animation"
