@@ -81,6 +81,7 @@ export const MainPaneContainer = styled(Pane).attrs({
   minHeight: 480,
   width: "100%",
   display: "flex",
+  alignItems: "flex-start",
   justifyContent: "space-evenly",
   paddingX: unit(12),
   paddingTop: unit(20),
@@ -96,7 +97,6 @@ export const MainPaneContainer = styled(Pane).attrs({
     }
     & > div:first-child {
       justify-content: flex-start;
-      margin-bottom: ${unit(8)};
       /* padding: 0 ${unit(4)}; */
       /* padding-left: ${unit(12)}; */
     }

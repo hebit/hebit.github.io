@@ -15,6 +15,7 @@ export const StyleContainer = styled.div<{ theme: Theme }>`
   }
   a {
     font-weight: 600;
+    color: ${(p) => p.theme.palette.red.base};
     :visited {
       color: ${(p) => p.theme.palette.red.base};
     }

@@ -26,9 +26,9 @@ function constrast(
 export const Container = styled(Pane)<ContainerProps>`
   background: linear-gradient(
       to bottom,
-      ${(p) => bgContainerColor[p.bgColor](p)},
+      ${(p) => bgContainerColor[p.bgColor](p)}99,
       ${(p) => bgContainerColor[p.bgColor](p)}00,
-      ${(p) => bgContainerColor[p.bgColor](p)}
+      ${(p) => bgContainerColor[p.bgColor](p)}99
     )
     ${(p) => p.bgImg && `,url("${p.bgImg}")`};
   display: flex;

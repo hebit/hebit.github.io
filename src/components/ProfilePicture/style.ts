@@ -20,6 +20,7 @@ export const TintText = styled(Text)<{ theme: Theme }>`
   position: absolute;
   right: 0;
   top: 30%;
+  z-index: 30;
   writing-mode: vertical-rl;
   text-orientation: upright;
   display: flex;
