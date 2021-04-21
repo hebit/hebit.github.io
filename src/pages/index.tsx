@@ -164,7 +164,12 @@ const Home: React.FC = () => {
                     </Paragraph>
                   </ListItem>
                   <ListItem marginY={unit(8)}>
-                    <Title size={600}>Curso CSS - Codecademy</Title>
+                    <Title size={600}>
+                      Curso CSS - {" "}
+                      <a className="tint" href="https://www.codecademy.com/profiles/he.bit" target="_blank">
+                        Codecademy
+                      </a>
+                    </Title>
                     <Paragraph>2018</Paragraph>
                     <Paragraph>
                       Realizei Curso oferecido pela codecademy que abordava Box

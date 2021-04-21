@@ -16,4 +16,12 @@ export default createGlobalStyle`
       p
     ) => p.theme.colors.background.overlay};
   }
+
+  a.tint {
+    font-weight: 600;
+    color: ${(p) => p.theme.palette.red.base};
+    :visited {
+      color: ${(p) => p.theme.palette.red.base};
+    }
+  }
 `;
