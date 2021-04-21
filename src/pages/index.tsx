@@ -110,10 +110,23 @@ const Home: React.FC = () => {
                 previewImg="https://user-images.githubusercontent.com/47919195/104086289-5bb0f480-5235-11eb-911e-63352f3b1e39.png"
                 uri="https://hebit.github.io/teste-for-gabinete-do-texto/"
               />
-
-              <span></span>
-              <ProjectCard empty={true} />
-              <ProjectCard empty={true} />
+              <ProjectCard
+                name="Layout Clone Test"
+                desciption=""
+                color="light"
+                previewImg="https://user-images.githubusercontent.com/47919195/115562085-8aa32180-a28c-11eb-8bde-73710bf9b86b.png"
+                uri="https://hebit.github.io/desafio-web-frontend/#/desafio-web-frontend/list/computa%C3%A7%C3%A3o"
+              />
+              <ProjectCard
+                name="Countdown Animation"
+                desciption=""
+                color="light"
+                previewImg="https://user-images.githubusercontent.com/47919195/115561841-53347500-a28c-11eb-992c-b5411b3524db.png"
+                uri="https://hebit.github.io/countdown-for-semcomp2019/"
+              />
+              {/* <span></span> */}
+              {/* <ProjectCard empty={true} /> */}
+              {/* <ProjectCard empty={true} /> */}
             </Pane>
           </Pane>
           <Divider margin={unit(0)} />
