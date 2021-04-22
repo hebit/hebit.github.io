@@ -51,7 +51,7 @@ const Home: React.FC = () => {
                 position="absolute"
                 bottom={unit(-10)}
               >
-                <ContactButton phone="557187995477" />
+                <ContactButton phone="557196068440" />
               </Pane>
             </Pane>
             <Pane paddingX={unit(4)} paddingLeft={unit(12)} flexGrow={1.65}>
